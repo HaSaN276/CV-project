@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+
+    max-width: 1000px;
+    background-color:#E4F9F5;
+    margin:0 auto;
+    padding: 20px;
+    
+}
+header{
+
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float: left;
+}
+.header-bio{
+   float: left;
+   padding: 30px;
+  
+}
+h1,h2,h3,h4,h5,h6{
+
+    color: #1199e;
+}
+
+.header-contact{
+    float: right;
+    
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+.header-contact a:hover{
+ text-decoration: underline;
+ color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 2px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+.common-hr{
+    border: solid black 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-information{
+
+}
+.left-div{
+    float: left;
+    width: 30%;
+
+}
+.right-div{
+float: right;
+width: 70%;
+padding-bottom: 10px;
+}
+.personal-hr{
+    border: 1px solid black;
+}
+.edu-content-left{
+float: left;
+width: 45%;
+
+}
+.edu-content-right{
+    float: right;
+    width: 45%;
+    
+}
+.footer-section{
+    background-color: rgb(110, 95, 95);
+    text-align: center;
+    width: 100;
+    padding: 10px 0px;
+}
+.footer-section a{
+ padding: 20px;
+ text-decoration: none;
+ color: white;
+ 
+}
+.footer-section a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.footer-section p{
+    margin-top: 5px;
+    color: white;
+}
+.ahsanullah{
+    text-decoration: none;
+    color: #1199e;
+}
+.Institute{
+    color: teal;
+}
+a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
